@@ -1,2 +1,9 @@
+# *
 User-agent: *
-Sitemap: https://example.io/sitemap.xml
+Allow: /
+
+# Host
+Host: https://fuscohire.com
+
+# Sitemaps
+Sitemap: https://fuscohire.com/sitemap.xml
