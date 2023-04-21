@@ -4,6 +4,7 @@ import { jsx, Box, Container, Button, Image } from 'theme-ui';
 import { rgba } from 'polished';
 import SectionHeading from 'components/section-heading';
 import illustration from 'assets/images/banner-illustration.png';
+import { logEvent } from 'analytics';
 
 const Banner = () => {
   return (
@@ -17,7 +18,9 @@ const Banner = () => {
           />
           <Box as="figure" sx={styles.illustration}>
             <Box sx={styles.buttonWrapper}>
-              <Button>Get Started</Button>
+              <Button onClick={()=>{
+                logEvent('click','Get Started CTA')
+              }} >Get Started</Button>
             </Box>
             <Image src={illustration} alt="illustration" />
           </Box>
