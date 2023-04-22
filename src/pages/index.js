@@ -21,7 +21,7 @@ export default function IndexPage() {
         />
         <Banner />
         <Services />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <OurTeam />
         {/* <OtherServices /> */}
         <WhyUs />

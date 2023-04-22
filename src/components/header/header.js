@@ -8,6 +8,7 @@ import { DrawerProvider } from "contexts/drawer/drawer-provider";
 import NavbarDrawer from "./navbar-drawer";
 import menuItems from "./header.data";
 import { logEvent } from "analytics";
+import Link from "next/dist/client/link";
 
 export default function Header() {
   return (
@@ -26,25 +27,29 @@ export default function Header() {
                       </li>
                     ))}
                   </Box>
+                  <Link href={"https://bit.ly/3KYA5W2"}>
+                    <Button
+                      variant="text"
+                      sx={styles.getStartedDesktop}
+                      onClick={() => {
+                        logEvent("click", "Get Started Nav");
+                      }}
+                    >
+                      Get Started
+                    </Button>
+                  </Link>
+                </Box>
+                <Link href={"https://bit.ly/3KYA5W2"}>
                   <Button
                     variant="text"
-                    sx={styles.getStartedDesktop}
+                    sx={styles.getStartedMobile}
                     onClick={() => {
                       logEvent("click", "Get Started Nav");
                     }}
                   >
                     Get Started
                   </Button>
-                </Box>
-                <Button
-                  variant="text"
-                  sx={styles.getStartedMobile}
-                  onClick={() => {
-                    logEvent("click", "Get Started Nav");
-                  }}
-                >
-                  Get Started
-                </Button>
+                </Link>
                 <NavbarDrawer />
               </Box>
             </Container>

@@ -15,12 +15,85 @@ import arrowRight from 'assets/images/icons/arrow-right.png';
 
 SwiperCore.use([Navigation, Pagination]);
 
+// {
+  //   id: 6,
+  //   avatar: avatar2,
+  //   name: 'Daisy Morgan',
+  //   designation: 'Lead developer',
+  //   socialLinks: [
+  //     {
+  //       name: 'twitter',
+  //       link: 'http://twitter.com',
+  //     },
+  //     {
+  //       name: 'dribbble',
+  //       link: 'http://dribbble.com',
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 7,
+  //   avatar: avatar3,
+  //   name: 'Ariyanna Hicks',
+  //   designation: 'Experience Designer',
+  //   socialLinks: [
+  //     {
+  //       name: 'twitter',
+  //       link: 'http://twitter.com',
+  //     },
+  //     {
+  //       name: 'github',
+  //       link: 'http://github.com',
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 8,
+  //   avatar: avatar4,
+  //   name: 'Yamilet Hooker',
+  //   designation: 'User interface designer',
+  //   socialLinks: [
+  //     {
+  //       name: 'twitter',
+  //       link: 'http://twitter.com',
+  //     },
+  //     {
+  //       name: 'github',
+  //       link: 'http://github.com',
+  //     },
+  //     {
+  //       name: 'dribbble',
+  //       link: 'http://dribbble.com',
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 4,
+  //   avatar: avatar4,
+  //   name: 'Yamilet Hooker',
+  //   designation: 'User interface designer',
+  //   socialLinks: [
+  //     {
+  //       name: 'twitter',
+  //       link: 'http://twitter.com',
+  //     },
+  //     {
+  //       name: 'github',
+  //       link: 'http://github.com',
+  //     },
+  //     {
+  //       name: 'dribbble',
+  //       link: 'http://dribbble.com',
+  //     },
+  //   ],
+  // },
 const data = [
   {
     id: 1,
     avatar: avatar1,
-    name: 'Emmalee Mclain',
-    designation: 'Product Designer',
+    name: 'Siddhartha',
+    designation: 'Sales executives',
+    quote:`"From the moment we engaged with Fuscohire, it was clear that we were in good hands. Their unique approach to finding top talent was refreshing and exceeded our expectations. We were thrilled with the candidate they helped us hire - their skills and personality were a perfect match for our team"`,
     socialLinks: [
       {
         name: 'twitter',
@@ -36,27 +109,13 @@ const data = [
       },
     ],
   },
-  {
-    id: 2,
-    avatar: avatar2,
-    name: 'Daisy Morgan',
-    designation: 'Lead developer',
-    socialLinks: [
-      {
-        name: 'twitter',
-        link: 'http://twitter.com',
-      },
-      {
-        name: 'dribbble',
-        link: 'http://dribbble.com',
-      },
-    ],
-  },
+
   {
     id: 3,
     avatar: avatar3,
-    name: 'Ariyanna Hicks',
-    designation: 'Experience Designer',
+    name: 'Rohan saxena',
+    designation: 'Software developer',
+    quote:`"I had the pleasure of working with Fuscohire to find the perfect mobile app developer for our team. From start to finish, the team  were professional, efficient, and genuinely cared about finding the right fit for our organization. Thanks to their thorough screening process and commitment to understanding our unique needs, we were able to hire an incredibly talented mobile app developer who has since become an invaluable member of our team."`,
     socialLinks: [
       {
         name: 'twitter',
@@ -68,83 +127,13 @@ const data = [
       },
     ],
   },
-  {
-    id: 4,
-    avatar: avatar4,
-    name: 'Yamilet Hooker',
-    designation: 'User interface designer',
-    socialLinks: [
-      {
-        name: 'twitter',
-        link: 'http://twitter.com',
-      },
-      {
-        name: 'github',
-        link: 'http://github.com',
-      },
-      {
-        name: 'dribbble',
-        link: 'http://dribbble.com',
-      },
-    ],
-  },
+  
   {
     id: 5,
     avatar: avatar1,
-    name: 'Emmalee Mclain',
-    designation: 'Product Designer',
-    socialLinks: [
-      {
-        name: 'twitter',
-        link: 'http://twitter.com',
-      },
-      {
-        name: 'github',
-        link: 'http://github.com',
-      },
-      {
-        name: 'dribbble',
-        link: 'http://dribbble.com',
-      },
-    ],
-  },
-  {
-    id: 6,
-    avatar: avatar2,
-    name: 'Daisy Morgan',
-    designation: 'Lead developer',
-    socialLinks: [
-      {
-        name: 'twitter',
-        link: 'http://twitter.com',
-      },
-      {
-        name: 'dribbble',
-        link: 'http://dribbble.com',
-      },
-    ],
-  },
-  {
-    id: 7,
-    avatar: avatar3,
-    name: 'Ariyanna Hicks',
-    designation: 'Experience Designer',
-    socialLinks: [
-      {
-        name: 'twitter',
-        link: 'http://twitter.com',
-      },
-      {
-        name: 'github',
-        link: 'http://github.com',
-      },
-    ],
-  },
-  {
-    id: 8,
-    avatar: avatar4,
-    name: 'Yamilet Hooker',
-    designation: 'User interface designer',
+    name: 'Shubham',
+    designation: 'Math expert',
+    quote:`"We were in desperate need of a few math experts for our small startup, but we were struggling to find someone who was a good fit. That's when we turned to Fusco for help. They were able to quickly identify our needs and provide us with several highly qualified math tutors to choose from"`,
     socialLinks: [
       {
         name: 'twitter',
