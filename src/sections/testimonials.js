@@ -4,44 +4,30 @@ import { jsx, Box, Container, Image, Text } from 'theme-ui';
 import Tabs, { TabPane } from 'rc-tabs';
 import { rgba } from 'polished';
 import quote from 'assets/images/icons/quote.png';
-import uber from 'assets/images/logos/uber.png';
-import google from 'assets/images/logos/google.png';
-import paypal from 'assets/images/logos/paypal.png';
-import microsoft from 'assets/images/logos/microsoft.png';
-import dribbble from 'assets/images/logos/dribbble.png';
+import paytm from 'assets/images/logos/paytm.png';
+import mg from 'assets/images/logos/mg.jpeg';
+import gem from 'assets/images/logos/gem.jpeg';
 import SectionHeading from 'components/section-heading';
 
 const data = [
   {
     id: 1,
-    logo: uber,
-    author: 'By Denny Albuz, Adviser of Paypal',
-    quote: `“Whatever we create in FuscoHire looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a FuscoHire Page we have made for them.”`,
+    logo: paytm,
+    author: '',
+    quote: `“I had the pleasure of working with FuscoHire recently, and I must say that their services exceeded my expectations. The team at FuscoHire is extremely professional and dedicated to finding the best talent for their clients. Their streamlined recruitment process ensures that they quickly and efficiently identify the right candidates for the job.”`,
   },
   {
     id: 2,
-    logo: google,
-    author: 'By Denny Albuz, Adviser of Paypal',
-    quote: `“FuscoHire Page we have made for them. Whatever we create in FuscoHire looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a”`,
+    logo: mg,
+    author: '',
+    quote: `“The level of communication and support provided by FuscoHire throughout the recruitment process was exceptional. They took the time to understand our specific needs and provided regular updates on the progress of the search. The candidates they presented were all of a high caliber and met our requirements perfectly.”`,
   },
   {
     id: 3,
-    logo: paypal,
-    author: 'By Denny Albuz, Adviser of Paypal',
-    quote: `“Whatever we create in FuscoHire looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a FuscoHire Page we have made for them.”`,
-  },
-  {
-    id: 4,
-    logo: microsoft,
-    author: 'By Denny Albuz, Adviser of Paypal',
-    quote: `“FuscoHire Page we have made for them. Whatever we create in FuscoHire looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a”`,
-  },
-  {
-    id: 5,
-    logo: dribbble,
-    author: 'By Denny Albuz, Adviser of Paypal',
-    quote: `“Whatever we create in FuscoHire looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a FuscoHire Page we have made for them.”`,
-  },
+    logo: gem,
+    author: '',
+    quote: `“I would highly recommend FuscoHire to anyone looking for a reliable and efficient hiring agency. They are committed to delivering the best possible results and will go above and beyond to ensure their clients are satisfied. I look forward to working with them again in the future.”`,
+  }
 ];
 
 const Testimonials = () => {
@@ -50,7 +36,7 @@ const Testimonials = () => {
       <Container>
       <SectionHeading
           sx={styles.heading}
-          title="Testimonials"
+          title="Meet Our Clients"
           description="What our clients are saying about our service"
         />
         <Tabs
@@ -59,7 +45,7 @@ const Testimonials = () => {
           tabPosition="bottom"
         >
           {data?.map((item) => (
-            <TabPane key={item.id} tab={<Image src={item.logo} alt="logo" />}>
+            <TabPane key={item.id} tab={<Image width="150px" height="48px" src={item.logo} alt="logo" />}>
               <Box as="blockquote">
                 {item.quote}
                 <Text as="span" sx={styles.author}>

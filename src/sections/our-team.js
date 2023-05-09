@@ -210,7 +210,7 @@ const OurTeam = () => {
       <Container ref={containerRef}>
         <SectionHeading
           sx={styles.heading}
-          title="Meet our Clients"
+          title="Testimonials"
           description="Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents."
         />
       </Container>
