@@ -9,7 +9,7 @@ export default function Logo({ isSticky, footer, ...props }) {
     <Link path="/" sx={styles.logo} {...props}>
       <div style={styles.row}>
       <LogoSvg />
-      <b style={styles.title}>FuscoHire</b>
+      <b style={styles.title}>Staff2Hire</b>
       </div>
     </Link>
   );

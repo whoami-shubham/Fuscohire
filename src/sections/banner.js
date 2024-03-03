@@ -15,7 +15,7 @@ const Banner = () => {
           <SectionHeading
             sx={styles.heading}
             title="Creativity starts with viewing the whole world differently"
-            description="A service agency with customer satisfaction"
+            description="A recruitment service agency with customer satisfaction"
           />
           <Box as="figure" sx={styles.illustration}>
             <Box sx={styles.buttonWrapper}>

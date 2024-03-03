@@ -35,7 +35,7 @@ const Services = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Grow your startup with our Service"
+          title="Grow your business with our Service"
           description="We understand that finding the right talent for your organization can be a daunting task, and that’s where we come in to simplify the process and help you find the best fit for your needs."
         />
         <Box sx={styles.contentWrapper}>

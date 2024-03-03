@@ -25,7 +25,7 @@ const SubscribeUs = () => {
         <Box sx={styles.contentWrapper}>
           <SectionHeading
             sx={styles.heading}
-            title="Want to try our service? Contact us contact@fuscohire.com"
+            title="Want to try our service? Contact us business@staff2hire.in"
             description="We have more than thousand of creative entrepreneurs and stat joining our business"
           />
           {/* <Box as="form" sx={styles.subscribe} onSubmit={handleSubmit}>
