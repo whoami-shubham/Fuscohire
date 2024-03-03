@@ -5,7 +5,7 @@ export default function SEO({
   description = 'A Hiring Platform to Manage your talent. Build and engage with your talent network. Access knowledge, insights and opportunities. Search and apply to jobs at 10000+ top companies. Find high paying jobs in IT, software, sales, marketing, operations, finance and more. Hire top talent',
   author = '',
   meta,
-  title = 'FuscoHire',
+  title = 'Staff2hire',
 }) {
   const metaData = [
     {

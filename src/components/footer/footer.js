@@ -22,7 +22,7 @@ export default function Footer() {
               <Link path="#!">Privacy</Link>
             </Box>
             <Text as="p" sx={styles.copyright}>
-              Copyright by {new Date().getFullYear()} FuscoHire
+              Copyright by {new Date().getFullYear()} Staff2Hire
             </Text>
           </Box>
           {menuItems.map(({ id, title, items }) => (
